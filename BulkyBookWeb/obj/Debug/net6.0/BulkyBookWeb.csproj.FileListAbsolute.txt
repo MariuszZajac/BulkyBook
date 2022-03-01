@@ -411,3 +411,5 @@ C:\Users\Ed\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\refint\BulkyBookWeb.dll
 C:\Users\Ed\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 C:\Users\Ed\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 C:\Users\Ed\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
+C:\Users\Ed\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\dotnet-ef.dll
+C:\Users\Ed\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
