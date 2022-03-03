@@ -1,0 +1,17 @@
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.csproj.AssemblyReference.cache
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.AssemblyInfoInputs.cache
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.AssemblyInfo.cs
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.csproj.CoreCompileInputs.cache
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\bin\Debug\net6.0\BulkyBook.DataAcces.deps.json
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\bin\Debug\net6.0\BulkyBook.DataAcces.runtimeconfig.json
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\bin\Debug\net6.0\BulkyBook.DataAcces.dll
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\bin\Debug\net6.0\BulkyBook.DataAcces.pdb
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\bin\Debug\net6.0\BulkyBook.Models.dll
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\bin\Debug\net6.0\BulkyBook.Models.pdb
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.csproj.CopyComplete
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.dll
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\refint\BulkyBook.DataAcces.dll
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.pdb
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\BulkyBook.DataAcces.genruntimeconfig.cache
+C:\Projekty\BulkyBook\BulkyBook.DataAcces\obj\Debug\net6.0\ref\BulkyBook.DataAcces.dll
