@@ -1136,7 +1136,7 @@ C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Pr
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Collections.Immutable.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.Unsafe.dll
-C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAcces.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
-C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAcces.pdb
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb

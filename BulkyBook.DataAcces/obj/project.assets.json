@@ -1882,9 +1882,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAcces.csproj",
-      "projectName": "BulkyBook.DataAcces",
-      "projectPath": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAcces.csproj",
+      "projectUniqueName": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAccess.csproj",
+      "projectName": "BulkyBook.DataAccess",
+      "projectPath": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Ed\\.nuget\\packages\\",
       "outputPath": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\obj\\",
       "projectStyle": "PackageReference",

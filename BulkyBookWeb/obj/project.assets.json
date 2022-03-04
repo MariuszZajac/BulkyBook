@@ -2542,7 +2542,7 @@
           }
         }
       },
-      "BulkyBook.DataAcces/1.0.0": {
+      "BulkyBook.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2552,10 +2552,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2"
         },
         "compile": {
-          "bin/placeholder/BulkyBook.DataAcces.dll": {}
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BulkyBook.DataAcces.dll": {}
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
         }
       },
       "BulkyBook.Models/1.0.0": {
@@ -7850,10 +7850,10 @@
         "version.txt"
       ]
     },
-    "BulkyBook.DataAcces/1.0.0": {
+    "BulkyBook.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../BulkyBook.DataAcces/BulkyBook.DataAcces.csproj",
-      "msbuildProject": "../BulkyBook.DataAcces/BulkyBook.DataAcces.csproj"
+      "path": "../BulkyBook.DataAcces/BulkyBook.DataAccess.csproj",
+      "msbuildProject": "../BulkyBook.DataAcces/BulkyBook.DataAccess.csproj"
     },
     "BulkyBook.Models/1.0.0": {
       "type": "project",
@@ -7863,7 +7863,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BulkyBook.DataAcces >= 1.0.0",
+      "BulkyBook.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.2",
       "Microsoft.AspNetCore.Razor.Runtime >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.2",
@@ -7901,8 +7901,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAcces.csproj": {
-              "projectPath": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAcces.csproj"
+            "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "C:\\Projekty\\BulkyBook\\BulkyBook.DataAcces\\BulkyBook.DataAccess.csproj"
             }
           }
         }
