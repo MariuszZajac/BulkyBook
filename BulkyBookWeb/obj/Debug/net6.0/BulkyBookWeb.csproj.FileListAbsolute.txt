@@ -1140,3 +1140,4 @@ C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
+C:\Projekty\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.MvcApplicationPartsAssemblyInfo.cs
