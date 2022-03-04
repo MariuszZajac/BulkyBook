@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BulkyBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220304113535_AddCoverTypeToDb")]
-    partial class AddCoverTypeToDb
+    [Migration("20220304143645_CoverTypeToDb")]
+    partial class CoverTypeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
