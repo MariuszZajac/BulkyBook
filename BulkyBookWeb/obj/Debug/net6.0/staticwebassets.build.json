@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K234beEjVkrB8Jne4JxUvuSMqq+xGez4AjX4b140tmw=",
+  "Hash": "Ga9jkoe9m4H/bHcaTzcbxyBCsFABRcio9CNfB4iwKG8=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\5bb68f96-7db8-4b97-9679-e0d0547dfde0.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/5bb68f96-7db8-4b97-9679-e0d0547dfde0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\5bb68f96-7db8-4b97-9679-e0d0547dfde0.jpg"
+    },
+    {
       "Identity": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\b192a635-234e-44dc-af8b-e2fbcde1a195.jpg",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\b192a635-234e-44dc-af8b-e2fbcde1a195.jpg"
+    },
+    {
+      "Identity": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",

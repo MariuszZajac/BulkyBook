@@ -54,11 +54,11 @@ public class ProductController : Controller
         }
         else
         {
-            //update product
-
+            productVM.Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+            return View(productVM);
         }
        
-        return View();
+        
     }
     //Post
     [HttpPost]
@@ -127,12 +127,12 @@ public class ProductController : Controller
 
     }
 
-    #region API Calls
+    #region API CALLS
 
     [HttpGet]
     public IActionResult GetAll()
     {
-        var productList = _unitOfWork.Product.GetAll();
+        var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
         return Json(new {data = productList});
     }
 
