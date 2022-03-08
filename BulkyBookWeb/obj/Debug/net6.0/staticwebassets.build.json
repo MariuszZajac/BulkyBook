@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FofN5cLtq8itS58ivUxDMydwZq3PwjHCbqeLvjPIkAU=",
+  "Hash": "K234beEjVkrB8Jne4JxUvuSMqq+xGez4AjX4b140tmw=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\b192a635-234e-44dc-af8b-e2fbcde1a195.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/b192a635-234e-44dc-af8b-e2fbcde1a195.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b192a635-234e-44dc-af8b-e2fbcde1a195.jpg"
     },
     {
       "Identity": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",

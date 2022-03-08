@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Http;
 using System;
+using System.IO;
 
 
 namespace BulkyBookWeb.Areas.Admin.Controllers;
@@ -22,8 +23,7 @@ public class ProductController : Controller
     }
     public IActionResult Index()
     {
-        IEnumerable<CoverType> objCoverTypeList = _unitOfWork.CoverType.GetAll();
-        return View(objCoverTypeList);
+        return View();
     }
     
     //GET
@@ -64,7 +64,7 @@ public class ProductController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
 
-    public IActionResult Upsert(ProductVM obj, IFormFile?  file)
+    public IActionResult Upsert(ProductVM obj, IFormFile? file)
     {
         if (ModelState.IsValid)
         {
@@ -72,7 +72,7 @@ public class ProductController : Controller
             if(file !=null)
             {
                 string fileName = Guid.NewGuid().ToString();
-                var uploads = Path.Combine(wwwRootPath, @"images\products");
+                var uploads = Path.Combine(wwwRootPath,@"images\products");
                 var extensions = Path.GetExtension(file.FileName);
 
                 using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extensions), FileMode.Create))
@@ -126,4 +126,15 @@ public class ProductController : Controller
            
 
     }
+
+    #region API Calls
+
+    [HttpGet]
+    public IActionResult GetAll()
+    {
+        var productList = _unitOfWork.Product.GetAll();
+        return Json(new {data = productList});
+    }
+
+    #endregion
 }
