@@ -1,7 +1,11 @@
 ﻿using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
+using BulkyBook.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Http;
+using System;
+
 
 namespace BulkyBookWeb.Areas.Admin.Controllers;
 [Area("Admin")]
@@ -9,10 +13,12 @@ public class ProductController : Controller
 
 {
     private readonly IUnitOfWork _unitOfWork;
+    private readonly IWebHostEnvironment _hostEnvironment;
 
-    public ProductController(IUnitOfWork unitOfWork)
+    public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment)
     {
         _unitOfWork = unitOfWork;
+        _hostEnvironment = hostEnvironment;
     }
     public IActionResult Index()
     {
@@ -23,29 +29,28 @@ public class ProductController : Controller
     //GET
     public IActionResult Upsert(int? id)
     {
-        Product product = new();
-        IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(
-        
-            u=> new SelectListItem
+        ProductVM productVM = new()
+        {
+            Product = new(),
+            CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
             {
-                Text =u.Name,
-                Value = u.Id.ToString()
-            });
-
-        IEnumerable<SelectListItem> CoverTypeList = _unitOfWork.CoverType.GetAll().Select(
-
-            u => new SelectListItem
+                Text = i.Name,
+                Value = i.Id.ToString()
+            }),
+            CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
             {
-                Text = u.Name,
-                Value = u.Id.ToString()
-            });
+                Text = i.Name,
+                Value = i.Id.ToString()
+            }),
+
+        };
 
         if (id==null || id == 0)
         {
             //create product
-            ViewBag.CategoryList = CategoryList;
-            ViewData["CoverTypeList"] = CoverTypeList;
-            return View(product);
+           // ViewBag.CategoryList = CategoryList;
+          //  ViewData["CoverTypeList"] = CoverTypeList;
+            return View(productVM);
         }
         else
         {
@@ -59,13 +64,27 @@ public class ProductController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
 
-    public IActionResult Upsert(CoverType obj)
+    public IActionResult Upsert(ProductVM obj, IFormFile?  file)
     {
         if (ModelState.IsValid)
         {
-            _unitOfWork.CoverType.Update(obj);
+            string wwwRootPath = _hostEnvironment.WebRootPath;
+            if(file !=null)
+            {
+                string fileName = Guid.NewGuid().ToString();
+                var uploads = Path.Combine(wwwRootPath, @"images\products");
+                var extensions = Path.GetExtension(file.FileName);
+
+                using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extensions), FileMode.Create))
+                {
+                    file.CopyTo(fileStreams);
+                }
+
+                obj.Product.ImageUrl = @"\images\products\" + fileName + extensions;
+            }
+            _unitOfWork.Product.Add(obj.Product);
             _unitOfWork.Save();
-            TempData["success"] = "Cover Type updated successfully";
+            TempData["success"] = "Product created successfully";
             return RedirectToAction("Index");
         }
         return View(obj);
