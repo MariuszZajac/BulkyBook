@@ -48,7 +48,7 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
                 includeProperties: "Product");
            
                 //Stripe settings
-                var domain = "https://localhost:44353/";
+            var domain = "https://localhost:44353/";
             var options = new SessionCreateOptions
             {
                 PaymentMethodTypes = new List<string>
@@ -58,7 +58,7 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
                 LineItems = new List<SessionLineItemOptions>(),
 
                 Mode = "payment",
-                SuccessUrl = domain + $"admin/order/PaymentConfirmation?orderHeaderId ={OrderVM.OrderHeader.Id}",
+                SuccessUrl = domain + $"admin/order/PaymentConfirmation?orderHeaderid={OrderVM.OrderHeader.Id}",
                 CancelUrl = domain + $"admin/order/details?orderId = {OrderVM.OrderHeader.Id}",
             };
             foreach (var item in OrderVM.OrderDetails)
@@ -90,9 +90,9 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
             return new StatusCodeResult(303);
         }
 
-        public IActionResult PaymentConfirmation(int orderHeaderId)
+        public IActionResult PaymentConfirmation(int orderHeaderid)
         {
-            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == orderHeaderId);
+            OrderHeader orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == orderHeaderid);
             if (orderHeader.PaymentStatus == SD.PaymentStatusDelayPayment)
             {
                 var service = new SessionService();
@@ -100,13 +100,13 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
                 // check the stripe status
                 if (session.PaymentStatus.ToLower() == "paid")
                 {
-                    _unitOfWork.OrderHeader.UpdateStatus(orderHeaderId,orderHeader.OrderStatus, SD.PaymentStatusApproved);
+                    _unitOfWork.OrderHeader.UpdateStatus(orderHeaderid, orderHeader.OrderStatus, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
 
                 }
             }
 
-            return View(orderHeaderId);
+            return View(orderHeaderid);
         }
 
         [HttpPost]
