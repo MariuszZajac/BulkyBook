@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JlAlf9BsVc5QSN22GHP3TvOxqqVKT0C4uK5lzvbgdyDw95Y0ZYY02HkhNbRMC0iIkCce/8wl0Vhca8q7dJWMNw==",
+  "dgSpecHash": "uhe6OlGi90N52nth4mXHWddYwshuJsdxi6XG5QjbGdDzfEYj+ji3/P0Weto6TyvBbyYpTgH42MYZ1HS6DlZ64g==",
   "success": true,
   "projectFilePath": "C:\\Projekty\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ed\\.nuget\\packages\\apache.nms\\1.8.0\\apache.nms.1.8.0.nupkg.sha512",
+    "C:\\Users\\Ed\\.nuget\\packages\\apache.nms.activemq\\1.8.0\\apache.nms.activemq.1.8.0.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
@@ -165,7 +167,7 @@
     "C:\\Users\\Ed\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ed\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ed\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Ed\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",

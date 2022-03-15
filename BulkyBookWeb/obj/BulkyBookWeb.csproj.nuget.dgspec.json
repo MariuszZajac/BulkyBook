@@ -253,6 +253,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Apache.NMS.ActiveMQ": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.2, )"
