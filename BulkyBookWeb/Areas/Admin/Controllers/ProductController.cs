@@ -6,10 +6,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.IO;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace BulkyBookWeb.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = SD.Role_Admin)]
 public class ProductController : Controller
 
 {
