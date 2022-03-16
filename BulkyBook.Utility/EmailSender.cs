@@ -25,7 +25,7 @@ namespace BulkyBook.Utility
             {
                 // add smtp to  correct email address 
                 emailClient.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-                //add email and password 
+                //add email and password BEFORE SEND CORRECT EMAIL NEED TO CONFIGURE EMAIL SENDER SITE TO ADD ACCESS TO SEND AUTO EMAIL 
                 emailClient.Authenticate("tutaj@dodajemail.com", "tutajDodajHasło");
                 emailClient.Send(emailToSend);
                 emailClient.Disconnect(true);

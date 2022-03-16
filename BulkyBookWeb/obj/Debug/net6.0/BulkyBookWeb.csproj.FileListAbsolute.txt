@@ -1155,3 +1155,6 @@ C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\Syst
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Apache.NMS.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Apache.NMS.ActiveMQ.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MailKit.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MimeKit.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
