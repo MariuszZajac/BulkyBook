@@ -4,6 +4,7 @@ using System.Security.Claims;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using BulkyBook.Models.ViewModels;
+using BulkyBook.Utility;
 using Microsoft.AspNetCore.Authorization;
 
 namespace BulkyBookWeb.Controllers;
@@ -53,19 +54,19 @@ namespace BulkyBookWeb.Controllers;
             if (cartFromDb == null)
             {
                 _unitOfWork.ShoppingCard.Add(shoppingCart);
+                _unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                    _unitOfWork.ShoppingCard.GetAll(u=>u.ApplicationUserId==claim.Value).ToList().Count);
             }
             else
             {
                 _unitOfWork.ShoppingCard.IncrementCount(cartFromDb, shoppingCart.Count);
+                _unitOfWork.Save();
             }
-
-
-        
-            _unitOfWork.Save();
             
             return RedirectToAction(nameof(Index));
         }
-    public IActionResult Privacy()
+        public IActionResult Privacy()
         {
             return View();
         }

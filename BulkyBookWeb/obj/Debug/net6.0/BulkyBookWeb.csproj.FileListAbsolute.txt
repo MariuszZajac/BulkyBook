@@ -1158,3 +1158,5 @@ C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Apache.NMS.ActiveMQ.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MailKit.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MimeKit.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\SendGrid.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\StarkbankEcdsa.dll

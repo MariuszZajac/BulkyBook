@@ -15,7 +15,7 @@ namespace BulkyBook.Utility
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             var emailToSend = new MimeMessage();
-            emailToSend.From.Add(MailboxAddress.Parse("tutaj@dodajemail.com"));//email to configure
+            emailToSend.From.Add(MailboxAddress.Parse("zajac@gmx.us"));//email to configure
             emailToSend.To.Add(MailboxAddress.Parse(email));
             emailToSend.Subject = subject;
             emailToSend.Body = new TextPart(MimeKit.Text.TextFormat.Html){Text = htmlMessage};
@@ -24,9 +24,9 @@ namespace BulkyBook.Utility
             using (var emailClient = new SmtpClient())
             {
                 // add smtp to  correct email address 
-                emailClient.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
+                emailClient.Connect("mail.gmx.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
                 //add email and password BEFORE SEND CORRECT EMAIL NEED TO CONFIGURE EMAIL SENDER SITE TO ADD ACCESS TO SEND AUTO EMAIL 
-                emailClient.Authenticate("tutaj@dodajemail.com", "tutajDodajHasło");
+                emailClient.Authenticate("zajac@gmx.us", "eded6666");
                 emailClient.Send(emailToSend);
                 emailClient.Disconnect(true);
             }
