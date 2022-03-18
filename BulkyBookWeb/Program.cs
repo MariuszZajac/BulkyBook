@@ -30,8 +30,8 @@ builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddAuthentication().AddFacebook(options =>
 {
-    options.AppId = "664916481227507"; //from FB developers data need to update!! 
-    options.AppSecret = "391935756ebfaed6eefcb7ee7a9d449d";
+    options.AppId = "6649164812207"; //from FB developers data need to update!! 
+    options.AppSecret = "391935756ebfaed6eefcb7";
 });
 builder.Services.ConfigureApplicationCookie(options =>
 {
