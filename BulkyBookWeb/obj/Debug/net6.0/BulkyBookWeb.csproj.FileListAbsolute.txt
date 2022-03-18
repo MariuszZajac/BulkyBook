@@ -1160,3 +1160,4 @@ C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MimeKit.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\SendGrid.dll
 C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\Projekty\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
