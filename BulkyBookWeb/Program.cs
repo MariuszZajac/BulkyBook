@@ -32,8 +32,8 @@ builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddAuthentication().AddFacebook(options =>
 {
-    options.AppId = "6649164812207"; //from FB developers data need to update!! 
-    options.AppSecret = "391935756ebfaed6eefcb7";
+    options.AppId = "664916481227507"; //from FB developers data need to update!! 
+    options.AppSecret = "391935756ebfaed6eefcb7ee7a9d449d";
 });
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -81,10 +81,7 @@ app.Run();
 
 void SeedDatabases()
 {
-    using (var scope = app.Services.CreateScope())
-    {
-        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbinitializer>();
-        dbInitializer.Initialize();
-        
-    }
+    using var scope = app.Services.CreateScope();
+    var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbinitializer>();
+    dbInitializer.Initialize();
 }

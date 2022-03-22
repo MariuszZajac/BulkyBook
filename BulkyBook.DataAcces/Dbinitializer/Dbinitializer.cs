@@ -28,7 +28,7 @@ namespace BulkyBook.DataAccess.Dbinitializer
             //Apply migrations if not
             try
             {
-                if (_db.Database.GetPendingMigrations().Count()>0)
+                if (_db.Database.GetPendingMigrations().Count() >0!)
                 {
                     _db.Database.Migrate();
                 }
