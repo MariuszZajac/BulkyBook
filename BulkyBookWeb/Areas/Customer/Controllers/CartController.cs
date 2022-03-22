@@ -207,6 +207,7 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
             _emailSender.SendEmailAsync(orderHeader.ApplicationUser.Email, "New Order - bulky book",
                 "<p> New order created</p>");// send new email confirmed to order
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCard.GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+           HttpContext.Session.Clear();
             _unitOfWork.ShoppingCard.RemoveRange(shoppingCarts);
             _unitOfWork.Save();
             return View(id) ;

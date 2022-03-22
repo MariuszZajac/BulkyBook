@@ -1,82 +1,48 @@
 ﻿++Solution 'BulkyBook' ‎(4 of 4 projects)
 i:{00000000-0000-0000-0000-000000000000}:BulkyBook.sln
-++BulkyBook.Utility
-i:{00000000-0000-0000-0000-000000000000}:BulkyBook.Utility
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybook.utility\bin\debug\net6.0\bulkybook.utility.dll
-++Dependencies
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>1215
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>1214
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:>1213
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2057
-++EmailSender.cs
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\emailsender.cs
-++SD.cs
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\sd.cs
-++StripeSettings.cs
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\stripesettings.cs
-++Analyzers
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:analyzers
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:analyzers
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:analyzers
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:analyzers
-++Frameworks
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:frameworks
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:frameworks
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:frameworks
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:frameworks
-++Packages
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:packages
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:packages
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:packages
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:packages
-++Microsoft.AspNetCore.App.Analyzers
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\users\ed\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\users\ed\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++System.Text.Json.SourceGeneration
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.NETCore.App
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\microsoft.netcore.app
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\microsoft.netcore.app
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\microsoft.netcore.app
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\microsoft.netcore.app
-++Microsoft.AspNetCore.Identity.UI (6.0.2)
-i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>2096
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2127
 ++BulkyBook.DataAccess
 i:{00000000-0000-0000-0000-000000000000}:BulkyBook.DataAccess
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybook.dataacces\bin\debug\net6.0\bulkybook.dataaccess.dll
-++Data
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\data\
-++Migrations
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\
-++Repository
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\
+++Dependencies
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>1176
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:>1177
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>1215
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2057
+++Analyzers
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:analyzers
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:analyzers
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:analyzers
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:analyzers
+++Frameworks
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:frameworks
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:frameworks
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:frameworks
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:frameworks
+++Microsoft.NETCore.App
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\microsoft.netcore.app
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\microsoft.netcore.app
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\microsoft.netcore.app
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\microsoft.netcore.app
+++Packages
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:packages
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:packages
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:packages
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:packages
 ++Projects
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:projects
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:projects
+++Data
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\data\
 ++ApplicationDbContext.cs
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\data\applicationdbcontext.cs
+++Dbinitializer
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\dbinitializer\
+++Dbinitializer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\dbinitializer\dbinitializer.cs
+++IDbinitializer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\dbinitializer\idbinitializer.cs
+++Migrations
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\
 ++20220304113520_AddCategory.cs
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220304113520_addcategory.cs
 ++20220304143645_CoverTypeToDb.cs
@@ -97,66 +63,10 @@ i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacc
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310172955_addorderheaderanddetailtodb.cs
 ++ApplicationDbContextModelSnapshot.cs
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\applicationdbcontextmodelsnapshot.cs
+++Repository
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\
 ++IRepository
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\irepository\
-++ApplicationUserRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\applicationuserrepository.cs
-++CategoryRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\categoryrepository.cs
-++CompanyRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\companyrepository.cs
-++CoverTypeRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\covertyperepository.cs
-++OrderDetailRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\orderdetailrepository.cs
-++OrderHeaderRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\orderheaderrepository.cs
-++ProductRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\productrepository.cs
-++Repository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\repository.cs
-++ShoppingCardRepository.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\shoppingcardrepository.cs
-++UnitOfWork.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\unitofwork.cs
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\users\ed\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2081
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2122
-++Microsoft.EntityFrameworkCore (6.0.2)
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2079
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2118
-++Microsoft.EntityFrameworkCore.Relational (6.0.2)
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2082
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2080
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2120
-++Microsoft.EntityFrameworkCore.Tools (6.0.2)
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2083
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2123
-++BulkyBook.Models
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.models\bin\debug\net6.0\bulkybook.models.dll
-i:{00000000-0000-0000-0000-000000000000}:BulkyBook.Models
-++20220304113520_AddCategory.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220304113520_addcategory.designer.cs
-++20220304143645_CoverTypeToDb.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220304143645_covertypetodb.designer.cs
-++20220307070114_addProductToDb.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220307070114_addproducttodb.designer.cs
-++20220309125424_extendedIdentityUser.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220309125424_extendedidentityuser.designer.cs
-++20220309134339_addCompanyToDb.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220309134339_addcompanytodb.designer.cs
-++20220309172953_addIdentityToDb.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220309172953_addidentitytodb.designer.cs
-++20220310061914_addCompanyIdToUser.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310061914_addcompanyidtouser.designer.cs
-++20220310070400_addShoppingCardToDb.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310070400_addshoppingcardtodb.designer.cs
-++20220310172955_addOrderHeaderAndDetailToDb.Designer.cs
-i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310172955_addorderheaderanddetailtodb.designer.cs
 ++IApplicationUserRepository.cs
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\irepository\iapplicationuserrepository.cs
 ++ICategoryRepository.cs
@@ -177,6 +87,96 @@ i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacc
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\irepository\ishoppingcardrepository.cs
 ++IUnitOfWork.cs
 i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\irepository\iunitofwork.cs
+++ApplicationUserRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\applicationuserrepository.cs
+++CategoryRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\categoryrepository.cs
+++CompanyRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\companyrepository.cs
+++CoverTypeRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\covertyperepository.cs
+++OrderDetailRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\orderdetailrepository.cs
+++OrderHeaderRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\orderheaderrepository.cs
+++ProductRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\productrepository.cs
+++Repository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\repository.cs
+++ShoppingCardRepository.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\shoppingcardrepository.cs
+++UnitOfWork.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\repository\unitofwork.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\users\ed\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\users\ed\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\users\ed\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2094
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2111
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2090
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2105
+++Microsoft.EntityFrameworkCore.Relational (6.0.2)
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2096
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2092
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2107
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:>2099
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2112
+++BulkyBook.Models
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.models\bin\debug\net6.0\bulkybook.models.dll
+i:{00000000-0000-0000-0000-000000000000}:BulkyBook.Models
+++BulkyBook.Utility
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.utility\bulkybook.utility.csproj
+i:{00000000-0000-0000-0000-000000000000}:BulkyBook.Utility
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybook.utility\bin\debug\net6.0\bulkybook.utility.dll
+++20220304113520_AddCategory.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220304113520_addcategory.designer.cs
+++20220304143645_CoverTypeToDb.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220304143645_covertypetodb.designer.cs
+++20220307070114_addProductToDb.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220307070114_addproducttodb.designer.cs
+++20220309125424_extendedIdentityUser.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220309125424_extendedidentityuser.designer.cs
+++20220309134339_addCompanyToDb.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220309134339_addcompanytodb.designer.cs
+++20220309172953_addIdentityToDb.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220309172953_addidentitytodb.designer.cs
+++20220310061914_addCompanyIdToUser.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310061914_addcompanyidtouser.designer.cs
+++20220310070400_addShoppingCardToDb.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310070400_addshoppingcardtodb.designer.cs
+++20220310172955_addOrderHeaderAndDetailToDb.Designer.cs
+i:{044ba8ab-c399-4bb3-88fc-f4a0153769a0}:c:\projekty\bulkybook\bulkybook.dataacces\migrations\20220310172955_addorderheaderanddetailtodb.designer.cs
 ++ViewModels
 i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\viewmodels\
 ++ApplicationUser.cs
@@ -197,20 +197,53 @@ i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\
 i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\product.cs
 ++ShoppingCart.cs
 i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\shoppingcart.cs
+++Microsoft.AspNetCore.Mvc.ViewFeatures (2.2.0)
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:>2068
+++Microsoft.Extensions.Identity.Stores (6.0.2)
+i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:>2069
 ++OrderVM.cs
 i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\viewmodels\ordervm.cs
 ++ProductVM.cs
 i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\viewmodels\productvm.cs
 ++ShoppingCardVM.cs
 i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:c:\projekty\bulkybook\bulkybook.models\viewmodels\shoppingcardvm.cs
-++Microsoft.AspNetCore.Mvc.ViewFeatures (2.2.0)
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:>2068
-++Microsoft.Extensions.Identity.Stores (6.0.2)
-i:{dba36e00-eedc-4ed8-8b72-b63ed42ca667}:>2069
+++EmailSender.cs
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\emailsender.cs
+++SD.cs
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\sd.cs
+++StripeSettings.cs
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:c:\projekty\bulkybook\bulkybook.utility\stripesettings.cs
+++MailKit (3.1.1)
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>2132
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>2131
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2116
+++MimeKit (3.1.1)
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>2133
+++SendGrid (9.26.0)
+i:{d0900b96-5c61-453e-9b0c-174ce4f3c3e0}:>2140
 ++BulkyBookWeb
 i:{00000000-0000-0000-0000-000000000000}:BulkyBookWeb
 ++Connected Services 
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2058
+++MessagePackAnalyzer
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\microsoft.aspnetcore.app
 ++Properties
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\properties\
 ++wwwroot
@@ -289,15 +322,15 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 ++_ViewImports.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\admin\views\_viewimports.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\customer\views\_viewimports.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\_viewimports.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\_viewimports.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\_viewimports.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\_viewimports.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\_viewimports.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\_viewimports.cshtml
 ++_ViewStart.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\admin\views\_viewstart.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\customer\views\_viewstart.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\_viewstart.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\_viewstart.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\_viewstart.cshtml
 ++Customer
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\customer\
 ++CartController.cs
@@ -314,8 +347,69 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\customer\views\home\
 ++Identity
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\
+++Pages
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\
+++Account
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\
+++Manage
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\
+++_StatusMessage.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\_statusmessage.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\_statusmessage.cshtml
+++AccessDenied.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\accessdenied.cshtml
+++ConfirmEmail.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\confirmemail.cshtml
+++ConfirmEmailChange.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\confirmemailchange.cshtml
+++ExternalLogin.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\externallogin.cshtml
+++ExternalLogin.cshtml.cs
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\externallogin.cshtml.cs
+++ForgotPassword.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\forgotpassword.cshtml
+++ForgotPasswordConfirmation.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\forgotpasswordconfirmation.cshtml
+++Lockout.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\lockout.cshtml
+++Login.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\login.cshtml
+++LoginWith2fa.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\loginwith2fa.cshtml
+++LoginWithRecoveryCode.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\loginwithrecoverycode.cshtml
+++Logout.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\logout.cshtml
+++Register.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\register.cshtml
+++Register.cshtml.cs
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\register.cshtml.cs
+++RegisterConfirmation.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\registerconfirmation.cshtml
+++ResendEmailConfirmation.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resendemailconfirmation.cshtml
+++ResetPassword.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resetpassword.cshtml
+++ResetPasswordConfirmation.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resetpasswordconfirmation.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\_validationscriptspartial.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\error.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\error.cshtml
+++ViewComponent
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\viewcomponent\
+++ShoppingCartViewComponent.cs
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\viewcomponent\shoppingcartviewcomponent.cs
 ++Shared
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\
+++Components
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\components\
+++ShoppingCart
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\components\shoppingcart\
+++Default.cshtml
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\components\shoppingcart\default.cshtml
 ++_Layout.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\_layout.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\_layout.cshtml
@@ -325,20 +419,32 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\view
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\_loginpartial.cshtml
 ++_Notification.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\_notification.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\_validationscriptspartial.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\_validationscriptspartial.cshtml
-++Error.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\views\shared\error.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\error.cshtml
 ++appsettings.json
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\appsettings.json
+++appsettings.Development.json
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\appsettings.development.json
 ++Program.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\program.cs
 ++ScaffoldingReadMe.txt
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\scaffoldingreadme.txt
 ++No service dependencies discovered
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2059
+++Apache.NMS.ActiveMQ (1.8.0)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2117
+++Microsoft.AspNetCore.Authentication.Facebook (6.0.2)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2165
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.2)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2104
+++Microsoft.AspNetCore.Razor.Runtime (2.2.0)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2106
+++Microsoft.EntityFrameworkCore.Tools.DotNet (2.0.3)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2108
+++Microsoft.Extensions.Caching.SqlServer (6.0.2)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2114
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2115
+++Stripe.net (39.96.0)
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2113
 ++launchSettings.json
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\properties\launchsettings.json
 ++serviceDependencies.json
@@ -376,114 +482,6 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\admin\views\covertype\edit.cshtml
 ++Privacy.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\customer\views\home\privacy.cshtml
-++Pages
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\
-++appsettings.Development.json
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\appsettings.development.json
-++MessagePackAnalyzer
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
-++Microsoft.AspNetCore.Analyzers
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
-++Microsoft.CodeAnalysis.Analyzers
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\users\ed\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++Microsoft.AspNetCore.App
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\microsoft.aspnetcore.app
-++Apache.NMS.ActiveMQ (1.8.0)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2128
-++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.2)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2117
-++Microsoft.AspNetCore.Razor.Runtime (2.2.0)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2119
-++Microsoft.EntityFrameworkCore.Tools.DotNet (2.0.3)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2121
-++Microsoft.Extensions.Caching.SqlServer (6.0.2)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2125
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2126
-++Stripe.net (39.96.0)
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:>2124
-++serviceDependencies.local.json
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\properties\servicedependencies.local.json
-++dist
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\
-++LICENSE
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\license
-++LICENSE.txt
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\license.txt
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++LICENSE.md
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\license.md
-++jquery.validate.unobtrusive.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-++Account
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\
-++jquery.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\jquery.js
-++additional-methods.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\additional-methods.js
-++jquery.validate.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-++jquery.validate.unobtrusive.min.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-++Manage
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\
-++_StatusMessage.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\_statusmessage.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\_statusmessage.cshtml
-++AccessDenied.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\accessdenied.cshtml
-++ConfirmEmail.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\confirmemail.cshtml
-++ConfirmEmailChange.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\confirmemailchange.cshtml
-++ExternalLogin.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\externallogin.cshtml
-++ForgotPassword.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\forgotpassword.cshtml
-++ForgotPasswordConfirmation.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\forgotpasswordconfirmation.cshtml
-++Lockout.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\lockout.cshtml
-++Login.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\login.cshtml
-++LoginWith2fa.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\loginwith2fa.cshtml
-++LoginWithRecoveryCode.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\loginwithrecoverycode.cshtml
-++Logout.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\logout.cshtml
-++Register.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\register.cshtml
-++RegisterConfirmation.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\registerconfirmation.cshtml
-++ResendEmailConfirmation.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resendemailconfirmation.cshtml
-++ResetPassword.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resetpassword.cshtml
-++ResetPasswordConfirmation.cshtml
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resetpasswordconfirmation.cshtml
-++Error.cshtml.cs
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\error.cshtml.cs
-++bootstrap.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-++jquery.min.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\jquery.min.js
-++additional-methods.min.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-++jquery.validate.min.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 ++_ManageNav.cshtml
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\_managenav.cshtml
 ++ChangePassword.cshtml
@@ -520,8 +518,6 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\confirmemail.cshtml.cs
 ++ConfirmEmailChange.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\confirmemailchange.cshtml.cs
-++ExternalLogin.cshtml.cs
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\externallogin.cshtml.cs
 ++ForgotPassword.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\forgotpassword.cshtml.cs
 ++ForgotPasswordConfirmation.cshtml.cs
@@ -536,8 +532,6 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\loginwithrecoverycode.cshtml.cs
 ++Logout.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\logout.cshtml.cs
-++Register.cshtml.cs
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\register.cshtml.cs
 ++RegisterConfirmation.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\registerconfirmation.cshtml.cs
 ++ResendEmailConfirmation.cshtml.cs
@@ -546,16 +540,23 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resetpassword.cshtml.cs
 ++ResetPasswordConfirmation.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\resetpasswordconfirmation.cshtml.cs
-++bootstrap.bundle.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-++bootstrap.esm.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-++bootstrap.js.map
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-++bootstrap.min.js
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-++jquery.min.map
-i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\jquery.min.map
+++Error.cshtml.cs
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\error.cshtml.cs
+++serviceDependencies.local.json
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\properties\servicedependencies.local.json
+++dist
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\license.txt
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 ++ChangePassword.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\changepassword.cshtml.cs
 ++DeletePersonalData.cshtml.cs
@@ -584,6 +585,32 @@ i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\area
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\showrecoverycodes.cshtml.cs
 ++TwoFactorAuthentication.cshtml.cs
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\areas\identity\pages\account\manage\twofactorauthentication.cshtml.cs
+++jquery.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.bundle.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\jquery\dist\jquery.min.map
 ++bootstrap.bundle.js.map
 i:{e26da8a5-23f9-41b9-991c-6bd94290df2a}:c:\projekty\bulkybook\bulkybookweb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 ++bootstrap.bundle.min.js
